@@ -3,8 +3,8 @@ import pickle
 import pandas as pd
 
 # Load the pre-trained transformer and model
-trans = pickle.load(open(r'E:\Data analysis\DEPI\Projects\Final Project\New folder (2)\transformer.pkl', 'rb'))
-model = pickle.load(open(r'E:\Data analysis\DEPI\Projects\Final Project\New folder (2)\log_reg.pkl', 'rb'))
+trans = pickle.load(open('transformer.pkl', 'rb'))
+model = pickle.load(open('log_reg.pkl', 'rb'))
 
 # Streamlit app
 st.title('Customer Churn Prediction')
