@@ -7,7 +7,7 @@ trans = pickle.load(open('transformer.pkl', 'rb'))
 model = pickle.load(open('log_reg.pkl', 'rb'))
 
 # Streamlit app
-st.title('Customer Churn Prediction')
+st.title('Customer Churn')
 
 # Input form for customer details
 contract = st.selectbox('Contract', ['Month-to-month', 'One year', 'Two year'])
